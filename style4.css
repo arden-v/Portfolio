@@ -1,0 +1,46 @@
+header {
+    background-color: lightblue;
+    color: rgb(80, 80, 231);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.PA {
+    color: rgb(80, 80, 231);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+}
+.PracticeActivities {
+    background-color: rgb(240, 160, 251);
+    color: rgb(80, 80, 231);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.PartnerLabs {
+    background-color: rgb(181, 255, 172);
+    color: rgb(80, 80, 231);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 10px;
+
+}
+
+.IndividualAssignments {
+    background-color: rgb(255, 255, 172);
+    color: rgb(80, 80, 231);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    float: right;
+}

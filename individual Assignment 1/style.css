@@ -1,0 +1,19 @@
+
+h1 {
+    color: #8000ff;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #00b7ff;
+}
+body {
+    background-color: #efb1d0;
+}
+ul, ol {
+    border:2px solid #6a18bd;
+    border-radius: 5px;
+}
+#des1 {
+    color: #ff00dd;
+    font-size: 30px;
+    
+}

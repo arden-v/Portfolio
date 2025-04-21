@@ -1,0 +1,99 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr  2fr 1fr;
+    gap: 10px;
+    font-family: 'calibri', sans-serif;
+    height: 40vw;
+    width: 75%;
+    margin: auto;
+    margin-top: 5vw;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+header {
+    grid-column: 1 / 4;
+    grid-row:1 / 2;
+    background-color: rgb(149, 103, 235);
+    border: black 5px solid;
+    
+}
+sidebar {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    background-color: #56dcda;
+    border: black 5px solid;
+}
+content-1 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    background: linear-gradient(to bottom right, rgb(120, 76, 201), rgb(59, 131, 232), rgb(15, 247, 255));
+    border: black 5px solid;
+}
+content-1:hover{
+   animation: moveTola;
+   animation-duration: 3s;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+}
+@keyframes moveTola {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+content-2 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background: linear-gradient(to bottom right, rgb(120, 76, 201), rgb(59, 131, 232), rgb(15, 247, 255));
+    border: black 5px solid;
+}
+content-2:hover{
+    transform: rotate(30deg);
+    transition: transform 0.5s ease;
+   
+}
+content-3 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background: linear-gradient(to bottom right, rgb(120, 76, 201), rgb(59, 131, 232), rgb(15, 247, 255));
+    border: black 5px solid;
+}
+content-3:hover{
+    transform: skewX(20deg);
+    transition: transform 0.5s ease;
+    
+   
+}
+footer {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    background-color: rgb(149, 103, 235);
+    border: black 5px solid;
+}
+body {
+    background-color: #233f50;
+    
+}
+#img1 {
+    width:15vw;
+    height:auto;
+}
+#img2 {
+    filter:saturate(1.2);
+    width:15vw;
+    height:auto;
+}
+
+#img3 {
+    filter:brightness(1.2);
+    width: 15vw;
+    height: auto;
+}

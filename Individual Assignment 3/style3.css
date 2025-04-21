@@ -1,0 +1,94 @@
+
+@media all and (max-width: 600px) {
+    #Menu{
+        display: none;
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+    footer {
+        display: none;
+    }
+    
+}
+ 
+ /* Tablet breakpoint */
+ @media all and (max-width: 700px) {
+    footer > p{
+        visibility: hidden;
+    }
+    .food {
+        display: flex;
+        flex-direction: column;
+    }
+    .food1{
+        display: flex;
+        flex-direction: row;
+    }
+    .food>div{
+        margin: 20px;
+    }
+   .food img{
+        width: 200px;
+        height: 200px;
+        margin: 25px;
+        
+    }
+ }
+
+ /* laptop breakpoint */
+ @media all and (max-width: 800px) {
+    
+    p {
+        color: #c232b9;
+    }
+ img{
+    width: 95%;
+    height: auto;
+ }
+ 
+.Appetizers{
+    visibility: visible; 
+    
+}
+.Entrees{
+    visibility: visible; 
+   
+}
+.Desserts{
+    visibility: visible; 
+    
+}
+.directions{
+    visibility: visible; 
+    
+    
+ }
+}
+
+  /* general */
+ h2 {
+    color: #f359e8;
+    
+ }  
+ h3 {
+    color: #f08ae9;
+ }
+ footer{
+    position: bottom;
+    width: 100%;
+    left:0;
+    bottom:0;
+    background-color: #f6e7f5;
+    text-align: center;
+
+}
+header{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: #f6e7f5;
+    width: 100%;
+}
